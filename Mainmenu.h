@@ -2,19 +2,16 @@
     char name[255],logname[255];
 	char pass[255],logpass[255];
 
-    void mainMenu(){
-	    int n;
+void mainMenu(){
+	int n;
 	printf("Oo=====================================oO\n");
 	printf("	      STUDY NETWORK     		\n");
 	printf("Oo=====================================oO\n");
 	puts("");
-	
 	puts("[All User]");
 	puts("");
-	
 	puts("No.	Username");
 	puts("");
-	
 	printf("-----------------------------------------\n");
 	puts("[1] Register");
 	puts("[2] Login");
@@ -111,7 +108,7 @@ void mainMenu2(){
 		printf(">> ");
 		puts("");
 		
-		if(  ){//jika nama yang diketik ada di username addnya baru di push
+		/*if(  ){//jika nama yang diketik ada di username addnya baru di push
 			printf("--Your request has been sent to %s--" ,name);//jika kondisi terpenuhi
 			printf("Press enter to continue!");
 			getchar();
@@ -123,7 +120,7 @@ void mainMenu2(){
 			getchar();
 			system("cls");
 			mainMenu2();
-		}
+		}*/
 	}else if(n == 2){//Remove friend
 		printf("-----------------------------------------\n");
 		printf("[All Friends of %s]\n" ,name);//namanya
@@ -133,7 +130,7 @@ void mainMenu2(){
 		printf(">> ");
 		puts("");
 		
-		if(){//jika nama yang diketik ada di username addnya baru di pop
+		/*if(){//jika nama yang diketik ada di username addnya baru di pop
 			printf("-- You are no longer friends with %s--" ,name);//jika kondisi terpenuhi
 			printf("Press enter to continue!");
 			getchar();
@@ -145,7 +142,7 @@ void mainMenu2(){
 			getchar();
 			system("cls");
 			mainMenu2();
-		}
+		}*/
 		
 	}else if(n == 3){//view Inbox
 		printf("-----------------------------------------\n");
@@ -156,7 +153,7 @@ void mainMenu2(){
 		printf(">> ");
 		puts("");
 		
-		if( ){//kalau nama yg diketik sesuai dengan request baru di hubungkan linknya
+		/*if( ){//kalau nama yg diketik sesuai dengan request baru di hubungkan linknya
 			printf("-- You accepted the request from %s--" ,name);
 			printf("Press enter to continue!");
 			getchar();
@@ -168,7 +165,7 @@ void mainMenu2(){
 			getchar();
 			system("cls");
 			mainMenu2();
-		}
+		}*/
 	}else if(n == 6){//logOut
 		mainMenu();//langsung balik ke main menu
 	}
