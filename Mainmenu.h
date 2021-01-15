@@ -1,13 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<ctime>
-
+#include "linkedlist.h"
     char name[255],logname[255];
 	char pass[255],logpass[255];
-void mainMenu(){
-	int n;
-	
-	
+
+    void mainMenu(){
+	    int n;
 	printf("Oo=====================================oO\n");
 	printf("	      STUDY NETWORK     		\n");
 	printf("Oo=====================================oO\n");
