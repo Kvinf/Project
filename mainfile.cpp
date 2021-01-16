@@ -11,7 +11,9 @@ int main(){
     inserthash("0carrick");//temen kepin ada carrick dan bryan
     inserthash("0bryan");
     viewhash();
-    removefriend(0,"0bryan");//masih fail ini
+    removefriend(0,"0carrick");
+    removefriend(0,"0bryan");
+    printf("\n");
     viewhash();
     return 0;
 }

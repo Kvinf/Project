@@ -121,7 +121,6 @@ int mainopen() {
             }
 			
     }
-
     if(n==2)
     {
             char logname[255];
