@@ -1,15 +1,17 @@
 #include "Mainmenu.h"
 
 int main(){
-    inserthashandfriends("0kepin");
-    inserthashandfriends("1bryan");
-    inserthashandfriends("2satya");
-    inserthashandfriends("3carrick");
-    inserthashandfriends("4najwa");
-    inserthashandfriends("5shihab");
-    inserthashandfriends("6mampus");;
-    inserthashandfriends("0carrick");//temen kepin ada carrick dan bryan
-    inserthashandfriends("0bryan");
+    inserthash("0kepin");
+    inserthash("1bryan");
+    inserthash("2satya");
+    inserthash("3carrick");
+    inserthash("4najwa");
+    inserthash("5shihab");
+    inserthash("6mampus");;
+    inserthash("0carrick");//temen kepin ada carrick dan bryan
+    inserthash("0bryan");
+    viewhash();
+    removefriend(0,"0bryan");//masih fail ini
     viewhash();
     return 0;
 }
