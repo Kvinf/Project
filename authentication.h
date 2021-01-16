@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include<ctime>
 
 //LINKED LIST SEMENTARA UNTUK TESTING. Pas digabungin, isi nodenya diubah saja.
 //Code dibawah untuk register dan login tidak akan mengubah isi linked list.
@@ -88,7 +89,7 @@ void printList() {
     }
 }
 
-int main() {
+int mainopen() {
 
     int n;
     scanf("%d", &n);
